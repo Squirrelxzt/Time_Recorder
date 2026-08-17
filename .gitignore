@@ -1,0 +1,31 @@
+# Gradle
+.gradle/
+**/build/
+build/
+buildOutput/
+captures/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+
+# Local configuration
+local.properties
+android/local.properties
+
+# Signing keystore (private key — never commit)
+*.keystore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

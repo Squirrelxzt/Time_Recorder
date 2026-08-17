@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 时间轴（竖向：时间自上而下，左侧时间刻度，右侧活动区） -->
+    <com.example.timerecorder.view.VerticalTimeAxisView
+        android:id="@+id/time_axis_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/axisBackground" />
+
+</LinearLayout>

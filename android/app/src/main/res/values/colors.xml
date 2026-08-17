@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌色 -->
+    <color name="colorPrimary">#3D5AFE</color>
+    <color name="colorPrimaryDark">#2A3EB1</color>
+    <color name="colorAccent">#00BFA5</color>
+
+    <!-- Material 3 语义色（浅色） -->
+    <color name="colorSecondary">#00BFA5</color>
+    <color name="colorSecondaryVariant">#00897B</color>
+    <color name="background">#F4F6FF</color>
+    <color name="onBackground">#1A1C20</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="onSurface">#1A1C20</color>
+    <color name="surfaceVariant">#E6E8F5</color>
+    <color name="onSurfaceVariant">#43474E</color>
+    <color name="primaryContainer">#DEE0FF</color>
+    <color name="onPrimaryContainer">#14179B</color>
+    <color name="secondaryContainer">#CCF2EC</color>
+    <color name="onSecondaryContainer">#0A352F</color>
+    <color name="outline">#75777F</color>
+    <color name="error">#B3261E</color>
+
+    <!-- 文本 -->
+    <color name="textPrimary">#1A1C20</color>
+    <color name="textSecondary">#5F6368</color>
+
+    <!-- 时间轴 -->
+    <color name="axisLine">#CFD3E8</color>
+    <color name="axisMinorTick">#E4E7F4</color>
+    <color name="axisText">#6B6F76</color>
+    <color name="axisBackground">#FFFFFF</color>
+    <color name="axisTextOnBlock">#FFFFFF</color>
+    <color name="axisHeaderBg">#F5F7FB</color>
+    <color name="axisHeaderDivider">#E1E5EF</color>
+    <color name="axisNowLine">#E53935</color>
+
+    <!-- 通用 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- 活动色（时间轴/列表共用，按顺序取色） -->
+    <color name="activity_color_1">#4CAF50</color>
+    <color name="activity_color_2">#2196F3</color>
+    <color name="activity_color_3">#FF9800</color>
+    <color name="activity_color_4">#9C27B0</color>
+    <color name="activity_color_5">#F44336</color>
+    <color name="activity_color_6">#00BCD4</color>
+</resources>

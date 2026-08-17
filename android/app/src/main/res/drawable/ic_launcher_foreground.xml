@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App 图标前景：四色表盘（多槽位并行计时）+ 白色指针，时间指向 10:10 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 表盘四色象限：右上橙 / 右下绿 / 左下蓝 / 左上紫 -->
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M54,54 L78,54 A24,24 0 0,1 54,30 Z" />
+    <path
+        android:fillColor="#66BB6A"
+        android:pathData="M54,54 L54,78 A24,24 0 0,1 78,54 Z" />
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M54,54 L30,54 A24,24 0 0,1 54,78 Z" />
+    <path
+        android:fillColor="#AB47BC"
+        android:pathData="M54,54 L54,30 A24,24 0 0,1 30,54 Z" />
+
+    <!-- 时针（10 点方向） -->
+    <path
+        android:pathData="M54,54 L33,42"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round" />
+    <!-- 分针（2 点方向） -->
+    <path
+        android:pathData="M54,54 L75,42"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+    <!-- 中心轴 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54 m-4.5,0 a4.5,4.5 0 1,1 9,0 a4.5,4.5 0 1,1 -9,0" />
+</vector>

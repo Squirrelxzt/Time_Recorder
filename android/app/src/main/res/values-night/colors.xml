@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌色（夜间微调提亮） -->
+    <color name="colorPrimary">#5E77FF</color>
+    <color name="colorPrimaryDark">#1A2B8C</color>
+    <color name="colorAccent">#00D6B5</color>
+
+    <!-- Material 3 语义色（深色） -->
+    <color name="colorSecondary">#00D6B5</color>
+    <color name="colorSecondaryVariant">#00A98F</color>
+    <color name="background">#121318</color>
+    <color name="onBackground">#E3E1E9</color>
+    <color name="surface">#1D1E24</color>
+    <color name="onSurface">#E3E1E9</color>
+    <color name="surfaceVariant">#2C2E36</color>
+    <color name="onSurfaceVariant">#C9CBD6</color>
+    <color name="primaryContainer">#2A2D9E</color>
+    <color name="onPrimaryContainer">#E0E1FF</color>
+    <color name="secondaryContainer">#0E5C50</color>
+    <color name="onSecondaryContainer">#C2F2EA</color>
+    <color name="outline">#8E9099</color>
+    <color name="error">#F2B8B5</color>
+
+    <!-- 文本 -->
+    <color name="textPrimary">#E3E1E9</color>
+    <color name="textSecondary">#A6A8B3</color>
+
+    <!-- 时间轴 -->
+    <color name="axisLine">#3A3C46</color>
+    <color name="axisMinorTick">#2E3038</color>
+    <color name="axisText">#9B9EA9</color>
+    <color name="axisBackground">#1D1E24</color>
+    <color name="axisTextOnBlock">#FFFFFF</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">时间记录器</string>
+    <string name="activity_name">活动名称</string>
+    <string name="start_time">开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="start_activity">开始活动</string>
+    <string name="end_activity">结束活动</string>
+    <string name="today_activities">今日活动</string>
+    <string name="hint_activity_name">请输入活动名称</string>
+    <string name="slot_start">开始</string>
+    <string name="slot_end">结束</string>
+
+    <!-- 活动编辑 -->
+    <string name="edit_activity_title">编辑活动</string>
+    <string name="edit_activity_save">保存</string>
+    <string name="edit_activity_cancel">取消</string>
+    <string name="start_date">开始日期</string>
+    <string name="end_date">结束日期</string>
+    <string name="hint_motive">动机（为什么做这件事）</string>
+    <string name="edit_saved">已保存</string>
+    <string name="edit_name_required">活动名称不能为空</string>
+    <string name="edit_time_invalid">结束时间必须晚于开始时间</string>
+
+    <!-- AI 助手 -->
+    <string name="ai_assistant_title">AI 助手</string>
+    <string name="ai_back">返回</string>
+    <string name="ai_setting_title">AI 接口设置</string>
+    <string name="ai_setting_base_url">接口地址（需包含 /v1）</string>
+    <string name="ai_setting_base_url_hint">https://api.deepseek.com/v1</string>
+    <string name="ai_setting_base_url_helper">最终请求地址为 baseUrl + /chat/completions</string>
+    <string name="ai_setting_api_key">API Key</string>
+    <string name="ai_setting_model">模型名</string>
+    <string name="ai_setting_model_hint">deepseek-chat</string>
+    <string name="ai_setting_save">保存</string>
+    <string name="ai_setting_persona">AI 风格 / 人设（可选）</string>
+    <string name="ai_setting_persona_hint">例如：像一位温柔可靠的人生导师，语气亲切，多鼓励</string>
+    <string name="ai_setting_persona_helper">留空使用默认风格；会同时作用于对话与每日总结</string>
+    <string name="ai_not_configured">请先设置 AI 接口</string>
+    <string name="ai_send">发送</string>
+    <string name="ai_input_hint">输入消息…</string>
+    <string name="ai_chip_today">总结今天</string>
+    <string name="ai_chip_query">查询今天活动</string>
+    <string name="ai_chip_today_prompt">总结一下我今天的日程</string>
+    <string name="ai_chip_query_prompt">查询今天的活动记录</string>
+    <string name="ai_empty_title">你好，我是你的日程助手</string>
+    <string name="ai_empty_subtitle">可以让我总结日程、帮你添加/删除日程，也可以闲聊</string>
+    <string name="ai_error_unauthorized">API Key 无效或没有权限，请检查设置</string>
+    <string name="ai_error_not_found">接口地址错误，确认 baseUrl 是否包含 /v1</string>
+    <string name="ai_error_rate_limit">请求过于频繁，请稍后再试</string>
+    <string name="ai_error_timeout">连接超时，请检查网络</string>
+    <string name="ai_error_network">网络异常，请检查网络连接</string>
+    <string name="ai_error_format">返回数据格式异常</string>
+    <string name="ai_error_no_tools">当前模型不支持日程工具，请在设置中换用支持 function calling 的模型</string>
+    <string name="ai_error_interrupted">请求已中断，请重试</string>
+    <string name="ai_error_unknown">请求失败，请稍后再试</string>
+    <string name="ai_clear">清空对话</string>
+    <string name="ai_clear_confirm">确定要清空所有聊天记录吗？</string>
+    <string name="ai_clear_ok">清空</string>
+    <string name="ai_resend">重新发送</string>
+    <string name="ai_resend_confirm">重新发送这条消息？</string>
+    <string name="ai_context_compacted">对话历史较长，已自动压缩</string>
+</resources>
